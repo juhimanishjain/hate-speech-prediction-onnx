@@ -99,7 +99,8 @@ Expected response:
 
 ### Project Structure:
 ├── **model.py**                   
-├── **app.py**                        
+├── **app.py**      
+├── **hate_speech_model.onnx**  
 ├── **requirements.txt**    
 ├── **cli_interface.py**   
 ├── **README.md**                   
@@ -107,6 +108,7 @@ Expected response:
 - **`model.py`** → Contains the code to train and export the ONNX model.
 - **`app.py`** → Serves the ONNX model via a Flask API.
 - **`requirements.txt`** → Lists the required dependencies to set up the environment.
+- **`hate_speech_model.onnx`** → ONNX version of this model. 
 - **`cli_interface.py`** → Command Line Interface to test the model. 
 - **`README.md`** → This documentation.
 
