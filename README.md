@@ -43,7 +43,7 @@ The server will now be accessible at:
 http://127.0.0.1:5500/predict
 ```
 
-6. Use the following cURL command to test the endpoint:
+5. Use the following cURL command to test the endpoint:
 
 ```bash
 curl -X POST "http://127.0.0.1:5001/predict" \
@@ -59,7 +59,7 @@ Expected response:
 }
 ```
 
-7. The endpoint can be accessed via any HTTP request method. Below is how to set it up in **Postman**:
+6. The endpoint can be accessed via any HTTP request method. Below is how to set it up in **Postman**:
 
 #### Request Format:
 - **Method:** `POST`
