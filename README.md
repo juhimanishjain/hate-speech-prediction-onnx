@@ -31,7 +31,7 @@ pip install -r requirements.txt # install dependencies
 python app.py
 ```
 
-By default, the server will run on port ####5001. To change the port:
+By default, the server will run on port 5001. To change the port:
 
 ```python
 python app.py --port 5500
