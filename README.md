@@ -95,7 +95,7 @@ Expected response:
 }
 ```
 
-![Postman Example](images/model_architecture.png)
+![Postman Example](img1.png)
 
 ### Project Structure:
 ├── **model.py**                   
