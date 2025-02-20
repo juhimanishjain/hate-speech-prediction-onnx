@@ -40,7 +40,7 @@ python app.py --port 5500
 The server will now be accessible at: 
 
 ```aurindo
-http://127.0.0.1:5500/predict
+http://127.0.0.1:5001/predict
 ```
 
 5. Use the following cURL command to test the endpoint:
